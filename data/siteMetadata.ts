@@ -9,7 +9,7 @@ const siteMetadata: SiteMetadata = {
   notes: 'Short notes and quick references',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailblaze-demo.vercel.app',
+  siteUrl: 'https://tailblaze.vietanh.dev',
   siteRepo: 'https://github.com/yourusername/tailblaze',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',

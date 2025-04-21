@@ -12,32 +12,11 @@ const headerNavLinks: NavLink[] = [
   { href: '/tags', title: 'Tags', ariaLabel: 'Tags' },
   { href: '/contact', icon: Mail, ariaLabel: 'Contact Me' },
   {
-    title: 'Social',
-    icon: Users,
-    ariaLabel: 'Social Media Links',
-    links: [
-      {
-        href: 'https://twitter.com/yourusername',
-        title: 'Twitter',
-        icon: SiX,
-        external: true,
-        ariaLabel: 'Twitter Profile',
-      },
-      {
-        href: 'https://linkedin.com/in/yourusername',
-        title: 'LinkedIn',
-        icon: SiLinkedin,
-        external: true,
-        ariaLabel: 'LinkedIn Profile',
-      },
-      {
-        href: 'https://github.com/yourusername',
-        title: 'GitHub',
-        icon: SiGithub,
-        external: true,
-        ariaLabel: 'GitHub Profile',
-      },
-    ],
+    href: 'https://github.com/vietanhdev/tailblaze',
+    title: 'Github',
+    icon: SiGithub,
+    external: true,
+    ariaLabel: 'GitHub Repository',
   },
 ]
 

@@ -12,7 +12,7 @@
 
 A beautiful, feature-rich blog starter with modern tech stack and perfect performance.
 
-[Demo](https://tailblaze-demo.vercel.app) • [Documentation](https://github.com/yourusername/tailblaze/wiki) • [Report Bug](https://github.com/vietanhdev/tailblaze/issues) • [Request Feature](https://github.com/vietanhdev/tailblaze/issues)
+[Demo](https://tailblaze.vietanh.dev) • [Documentation](https://github.com/yourusername/tailblaze/wiki) • [Report Bug](https://github.com/vietanhdev/tailblaze/issues) • [Request Feature](https://github.com/vietanhdev/tailblaze/issues)
 
 ![Tailblaze](screenshot.png)
 
