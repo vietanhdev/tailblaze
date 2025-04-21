@@ -16,6 +16,8 @@ A beautiful, feature-rich blog starter with modern tech stack and perfect perfor
 
 ![Tailblaze](screenshot.png)
 
+![Projects](projects.png)
+
 ![Google Speed Insights](speedinsights.png)
 
 </div>
