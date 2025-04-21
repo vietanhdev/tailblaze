@@ -1,25 +1,47 @@
-# Tailblaze - Tailwind NextJS Blog Starter Theme
+<div align="center">
 
-A modern, feature-rich blog theme built with Next.js and Tailwind CSS.
+# 🚀 Tailblaze
 
-![Tailblaze](https://placeholder-image-for-tailblaze.com/banner.jpg)
+### Modern Tailwind NextJS Blog Starter Theme with Perfect PageSpeed Score
 
-## Features
+[![Next.js](https://img.shields.io/badge/Next.js-13+-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![PageSpeed Score: 100](https://img.shields.io/badge/PageSpeed_Score-100-success?style=for-the-badge&logo=pagespeed-insights&logoColor=white)](https://pagespeed.web.dev/)
 
-- **⚡️ Fast Performance**: Leveraging Next.js static site generation for blazing fast page loads
-- **🎨 Beautiful Design**: Sleek, modern interface crafted with Tailwind CSS
-- **📱 Fully Responsive**: Looks great on all devices, from mobile to desktop
-- **✍️ MDX Support**: Write content with Markdown and embed React components
-- **📊 SEO Optimized**: Built-in SEO components and metadata configuration
-- **📂 Content Organization**: Organized file structure for blog posts and notes
-- **🔍 Search**: Built-in search functionality for content discovery
-- **📱 PWA Support**: Progressive Web App support for installation on devices
-- **📈 Analytics Ready**: Easy integration with popular analytics platforms
-- **💬 Comments**: Support for multiple comment providers (Disqus, Utterances)
-- **📧 Newsletter**: Newsletter subscription form with popular provider integrations
-- **🔄 RSS Feed**: Automatic RSS feed generation for your content
+A beautiful, feature-rich blog starter with modern tech stack and perfect performance.
 
-## Quick Start
+[Demo](https://tailblaze-demo.vercel.app) • [Documentation](https://github.com/yourusername/tailblaze/wiki) • [Report Bug](https://github.com/vietanhdev/tailblaze/issues) • [Request Feature](https://github.com/vietanhdev/tailblaze/issues)
+
+![Tailblaze](screenshot.png)
+
+![Google Speed Insights](speedinsights.png)
+
+</div>
+
+## ✨ Features
+
+<div align="center">
+
+|          |                                                                                                                    |
+| -------- | ------------------------------------------------------------------------------------------------------------------ |
+| ⚡️ | **Blazing Fast** - Static site generation with Next.js for lightning-quick load times                           |
+| 🎨 | **Beautiful Design** - Modern UI crafted with Tailwind CSS and shadcn/ui components                            |
+| 📱 | **Fully Responsive** - Perfect viewing experience across all devices                                           |
+| ✍️ | **MDX Support** - Write content with Markdown and embed React components                                       |
+| 📊 | **SEO Optimized** - Built-in SEO components and metadata configuration                                         |
+| 📂 | **Content Organization** - Well-structured file system for blog posts and notes                                |
+| 🔍 | **Search Functionality** - Built-in content discovery                                                          |
+| 📱 | **PWA Ready** - Progressive Web App support for installation                                                   |
+| 📈 | **Analytics Integration** - Easy setup with popular analytics platforms                                        |
+| 💬 | **Comments System** - Multiple provider options (Disqus, Utterances)                                           |
+| 📧 | **Newsletter** - Subscription form with popular service integrations                                           |
+| 🔄 | **RSS Feed** - Automatic feed generation for your content                                                      |
+
+</div>
+
+## 🚀 Quick Start
 
 ```bash
 # Clone the repository
@@ -37,11 +59,11 @@ pnpm dev
 
 Visit `http://localhost:3000` to see your blog in action.
 
-## Documentation
+## 📖 Documentation
 
-For detailed documentation, visit our [documentation site](https://github.com/yourusername/tailblaze/wiki).
+For detailed documentation and guides, visit our [documentation site](https://github.com/yourusername/tailblaze/wiki).
 
-## Deployment
+## 🏗️ Deployment
 
 ### Build for Production
 
@@ -52,69 +74,62 @@ pnpm build
 
 The static site will be generated in the `out` directory.
 
-### Deploy to Vercel
+### Deploy to Vercel (Recommended)
 
-The easiest way to deploy your Tailblaze blog is to use the [Vercel Platform](https://vercel.com).
+The easiest way to deploy your Tailblaze blog:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Ftailblaze)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvietanhdev%2Ftailblaze)
 
 ### Deploy to Cloudflare Pages
 
-You can also deploy your Tailblaze blog to Cloudflare Pages:
+Deploy to Cloudflare Pages in a few simple steps:
 
 1. Push your repository to GitHub or GitLab
 2. Log in to the [Cloudflare Dashboard](https://dash.cloudflare.com/)
-3. In Account Home, select **Pages** > **Create a project** > **Connect to Git**
+3. Select **Pages** > **Create a project** > **Connect to Git**
 4. Select your repository
-5. Configure your build settings:
+5. Configure build settings:
    - **Build command:** `pnpm run build-images && pnpm build`
    - **Build output directory:** `out`
    - **Node.js version:** `18` (or higher)
    - **Build system version:** `2`
-6. Under **Environment variables**, add:
-   - `NODE_VERSION`: `18` (or your preferred Node.js version)
+6. Add environment variables:
+   - `NODE_VERSION`: `18`
    - `NPM_FLAGS`: `--version`
-   - `PNPM_VERSION`: `8.6.0` (or your preferred pnpm version)
+   - `PNPM_VERSION`: `8.6.0`
 7. Click **Save and Deploy**
 
-Your site will be deployed to a `*.pages.dev` domain. You can set up a custom domain in the Cloudflare Pages settings.
+> **Note:** Tailblaze is configured for static exports with `output: 'export'` in `next.config.js`
 
-> **Note:** Tailblaze is already configured for static exports with `output: 'export'` in `next.config.js`, making it compatible with Cloudflare Pages' static site hosting.
+## ⚙️ Customization
 
-## Customization
+| Area | How to Customize |
+|------|------------------|
+| **Site Metadata** | Edit `data/siteMetadata.ts` |
+| **Navigation** | Modify `data/headerNavLinks.ts` |
+| **Theme** | Adjust `tailwind.config.js` |
+| **Components** | Customize in the `components` directory |
+| **Pages** | Modify or add in the `pages` directory |
 
-- **Site Metadata**: Edit `data/siteMetadata.ts` to configure your site's metadata
-- **Navigation**: Modify `data/headerNavLinks.ts` to customize navigation links
-- **Theme**: Adjust `tailwind.config.js` for color schemes and styling
-- **Components**: Customize components in the `components` directory
-- **Pages**: Modify or add pages in the `pages` directory
-
-## Content Management
+## 📝 Content Management
 
 - **Blog Posts**: Add Markdown or MDX files to `data/blog`
 - **Notes**: Add shorter content to `data/notes`
-- **Images**: Store images in the `public/static/images` directory
+- **Images**: Store in `public/static/images`
 
-## Free Image Resources
+## 🖼️ Free Image Resources
 
-Looking for free images for your blog? Here are some excellent resources:
+| Resource | Description |
+|----------|-------------|
+| [Unsplash](https://unsplash.com) | High-quality free photos |
+| [Pexels](https://pexels.com) | Free stock photos and videos |
+| [Pixabay](https://pixabay.com) | Free images and royalty-free stock |
+| [StockSnap.io](https://stocksnap.io) | Beautiful free stock photos |
+| [Undraw](https://undraw.co) | Open-source illustrations |
 
-- [Unsplash](https://unsplash.com) - High-quality free stock photos
-- [Pexels](https://pexels.com) - Free stock photos and videos
-- [Pixabay](https://pixabay.com) - Free images and royalty-free stock
-- [StockSnap.io](https://stocksnap.io) - Beautiful free stock photos
-- [Undraw](https://undraw.co) - Open-source illustrations
+## 📋 Blog Post Templates
 
-## Examples
-
-Check out these example sites built with Tailblaze:
-
-- [Demo Site](https://tailblaze-demo.vercel.app)
-- [Example Blog](https://example-blog.com)
-
-## Blog Post Templates
-
-Tailblaze comes with several blog post templates to help you get started:
+Tailblaze includes several ready-to-use blog post templates:
 
 - Basic blog post
 - Tutorial with code snippets
@@ -123,9 +138,9 @@ Tailblaze comes with several blog post templates to help you get started:
 - Link collection
 - Quote/commentary
 
-## Performance Optimization
+## ⚡ Performance Optimization
 
-Tailblaze is optimized for performance out of the box:
+Tailblaze is optimized for performance with:
 
 - Code splitting for faster page loads
 - Image optimization with next-image-export-optimizer
@@ -133,21 +148,25 @@ Tailblaze is optimized for performance out of the box:
 - Minimal dependencies
 - CSS purging with Tailwind CSS
 
-## Contributing
+## 👥 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
+## 📄 License
 
-- Source code: [MIT License](LICENSE)
-- Content: Copyrighted by respective authors, all rights reserved. Check individual license for more details.
+- **Source code**: [MIT License](LICENSE)
+- **Content**: Copyrighted by respective authors, all rights reserved.
 
-## Credits
+## 🙏 Credits
 
-- Original theme created by [timlrx](https://github.com/timlrx/tailwind-nextjs-starter-blog)
+- Original theme by [timlrx](https://github.com/timlrx/tailwind-nextjs-starter-blog)
 - Built with [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/)
 - UI components from [shadcn/ui](https://ui.shadcn.com/)
 
 ---
 
+<div align="center">
+
 Built with ❤️ by [Viet-Anh Nguyen](https://github.com/vietanhdev)
+
+</div>
