@@ -1,0 +1,78 @@
+{
+  "name": "Viet-Anh on Software",
+  "theme_color": "#0061ff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "short_name": "Viet-Anh Dev",
+  "description": "Viet-Anh's blog on AI and software engineering - Sharing insights, tutorials, and experiences in artificial intelligence, machine learning, and software development.",
+  "icons": [
+    {
+      "src": "/favicons/android-icon-36x36.png",
+      "sizes": "36x36",
+      "type": "image/png",
+      "density": "0.75",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicons/android-icon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "density": "1.0",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicons/android-icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "density": "1.5",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicons/android-icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "density": "2.0",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicons/android-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "density": "3.0",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicons/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "density": "4.0",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicons/android-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "technology", "blog", "ai", "machine learning", "development"],
+  "screenshots": [
+    {
+      "src": "/images/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/images/screenshot-mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "lang": "en-US",
+  "orientation": "any",
+  "prefer_related_applications": false
+}
