@@ -12,7 +12,7 @@
 
 A beautiful, feature-rich blog starter with modern tech stack and perfect performance.
 
-[Demo](https://tailblaze.vietanh.dev) • [Documentation](https://github.com/yourusername/tailblaze/wiki) • [Report Bug](https://github.com/vietanhdev/tailblaze/issues) • [Request Feature](https://github.com/vietanhdev/tailblaze/issues)
+[Demo](https://tailblaze.vietanh.dev) • [Documentation](https://github.com/vietanhdev/tailblaze/blob/master/DOCUMENTATION.md) • [Report Bug](https://github.com/vietanhdev/tailblaze/issues) • [Request Feature](https://github.com/vietanhdev/tailblaze/issues)
 
 ![Tailblaze](screenshot.png)
 
@@ -63,7 +63,7 @@ Visit `http://localhost:3000` to see your blog in action.
 
 ## 📖 Documentation
 
-For detailed documentation and guides, visit our [documentation site](https://github.com/yourusername/tailblaze/wiki).
+For detailed documentation and guides, visit our [documentation site](https://github.com/vietanhdev/tailblaze/blob/master/DOCUMENTATION.md).
 
 ## 🏗️ Deployment
 
